@@ -27,6 +27,13 @@ class HomeScreen extends StatelessWidget {
           ],
         ),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          print('hola');
+        },
+        child: const Icon(Icons.plus_one_sharp),
+      ),
+      
     );
   }
 }
